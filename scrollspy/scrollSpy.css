@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  background-color: darkcyan;
+
+  text-align: center;
+  width: 100%;
+}
+header nav a {
+  display: inline-block;
+  padding: 20px 5px;
+  text-decoration: none;
+  color: wheat;
+  font-size: 1.2em;
+  transition: all 0.4s;
+  width: 90px;
+}
+
+header nav a.active,
+header nav a:hover {
+  color: darkcyan;
+  letter-spacing: 2px;
+  background-color: white;
+}
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+section:nth-child(odd) {
+  background-color: #eee;
+}

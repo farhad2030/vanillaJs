@@ -1,0 +1,52 @@
+*,*::after,*::before{
+   margin:0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+body{
+   background-color: tan;
+}
+.img{
+   width: 100%;
+   height: 100vh;
+   background-image: url(fox.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+
+}
+.imgText{
+   position: absolute;
+   top :40%;
+   left: 37%;
+color: aliceblue;
+font-size: 40px;   
+}
+#effect{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+padding: 50px;
+}
+
+.heading{
+   position: absolute;
+   top:200px;
+   left:70px;
+
+}
+.paragraph{
+
+   margin-left: 70px;
+   margin-right: 20px;
+   font-size: 20px;
+}
+.img2{
+   width: 100%;
+   height: 200px;
+   background-image: url(landscape.png);
+background-size: cover;
+margin-right: 70px;
+}

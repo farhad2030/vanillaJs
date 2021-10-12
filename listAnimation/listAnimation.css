@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  background-color: antiquewhite;
+  padding: 10px;
+}
+.item {
+  max-width: 300px;
+  padding: 20px;
+  margin: 5px;
+  box-shadow: 5px 5px 5px rgb(207, 200, 200);
+transition:all  .4s;}
+.appear{
+   transform: translate(0px ,0px) rotate(0deg);
+   opacity: 1;
+}
+.disAppear{
+   transform: translate(0px ,12px) rotate(5deg);
+   opacity: 0;
+}
+
+
+
+
