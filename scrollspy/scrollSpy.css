@@ -10,7 +10,6 @@ header {
   left: 0px;
   z-index: 1000;
   background-color: darkcyan;
-
   text-align: center;
   width: 100%;
 }
@@ -22,6 +21,7 @@ header nav a {
   font-size: 1.2em;
   transition: all 0.4s;
   width: 90px;
+  margin-right: 0px;
 }
 
 header nav a.active,
@@ -37,7 +37,15 @@ section {
   align-items: center;
   font-size: 40px;
   font-weight: bold;
+  color:#fff;
 }
 section:nth-child(odd) {
-  background-color: #eee;
+  background-color: #444;
+}
+section:nth-child(even) {
+  background-color: #aaa;
+}
+section:nth-child(4) {
+height: 20vh !important;
+color:red;
 }

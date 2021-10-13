@@ -17,17 +17,17 @@ console.log(item[0].getBoundingClientRect().bottom);
 
 const loadAnimation = ()=>{
    
-let wh=window.innerHeight;
-let disFT=item[0].getBoundingClientRect().top
+let windowHeight=window.innerHeight;
+// let distanceFromTop=item[0].getBoundingClientRect().top
 let itemHeight=item[0].offsetHeight
 
 item.forEach(item=>{
 
 let itemHeight=item.offsetHeight
-let disFT=item.getBoundingClientRect().top
+let distanceFromTop=item.getBoundingClientRect().top
 
 
-if((wh-disFT)>itemHeight/2){
+if((windowHeight-distanceFromTop)>itemHeight/2){
    console.log('visivele');
    item.classList.remove('disAppear')
    item.classList.add('appear')
