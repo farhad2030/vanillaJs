@@ -19,6 +19,8 @@ window.onload = function () {
     //   // //   console.log(link[index].getAttribute("href"));
     //   //   link[index].classList.add("active");
 
+    // let sections=document.querySelectorAll('section')
+
     //   // }
     //   if(distanceFrombottom >itemHeight/4){
     //     link[index].classList.add("active");
@@ -75,6 +77,7 @@ window.onload = function () {
 
  
   // };
+  section[2].scrollTop=100
 };
 
 console.log("all right");
